@@ -1,0 +1,13 @@
+@import "./mixins";
+@import "./variables";
+@import "./mediaquery";
+
+.bestideas-section{
+    @include bestideas-section;
+}
+.testimonial-section{
+    @include testimos;
+}
+.overlay-section{
+    @include overlay-section;
+}
