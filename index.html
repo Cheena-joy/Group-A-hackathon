@@ -4,21 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .hero{
+            background-color: #F3F9EB;
+            width: 1512px;
+            height: 889px;
+            margin-top: 0;
+        }
+        .nav-links{
+            display: flex;
+            width: 565px;
+            height: 46px;
+            gap: 34px;
+        }
+        .nav-links a{
+            text-decoration: none;
+            color: black;
+        }
+        .about{
+            width: 1512px;
+            height: 1000px;
+            padding-top: 76px;
+            padding-right: 120px;
+            padding-bottom: 76px;
+            padding-left: 120px;
+        }
+    </style>
 </head>
 <body>
-    
-    <nav>
-        <div>
-            <h3>Hackathon.</h3>
-            <div class="nav-links">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+
+    <section class="hero">
+        <nav style="align-items: center;">
+            <div style="display: flex; width: 1272px; height: 46px; margin-top: 58px; margin-left: 120px; gap: 322px;">
+                <h3>Hackathon.</h3>
+                <div class="nav-links">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Services</a>
+                    <a href="">Pages</a>
+                    <a href="">Contact</a>
+                </div>
+                <img style="width: 32px; height: 32px; color: black;" src="search-01.png" alt="icon">
             </div>
-            <img src="" alt="">
+        </nav>
+
+
+        <div style="display: flex; gap: 40px;">
+            <div style="width: 590px; height: 332px; margin-top: 243px; margin-left: 120px; gap: 32px;">
+                <h2>Accelerate Growth At The Hackathon!</h2>
+                <h3>Join our exciting hackathon to develop cutting-edge solutions and take your tech skills to the next level.</h3>
+                <div>
+                    <button style="background-color: #15473E; font-size: 20px;">Register Now <img style="width: 24px; height: 24px;" src="arrow-right-02.png" alt=""></button>
+                    <button>Contact us <img style="width: 24px; height: 24px;" src="call.png" alt=""></button>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <img style="width: 562px; height: 200px;" src="Frame 359.png" alt="">
+                <img style="width: 562px; height: 200px;" src="Frame 360.png" alt="">
+            </div>
         </div>
-    </nav>
+    </section>
+
+    <section class="about">
+        <div style="width: 1272px; height: 48px; gap: 146px;">
+            <img style="width: 194px; height: 48px;" src="Amplitude Company logo (1).png" alt="">
+            <img style="width: 115px; height: 48px;" src="hopin Company logo.png" alt="">
+            <img style="width: 148px; height: 48px;" src="gumroad Company logo.png" alt="">
+            <img style="width: 108px; height: 48px;" src="splunk Company logo (1).png" alt="">
+            <img style="width: 121px; height: 48px;" src="slack Company logo (2).png" alt="">
+        </div>
+
+        <div style="display: flex; width: 1272px; height: 700px; gap: 70px;">
+            <div style="width: 602px; height: 385px; gap: 32px;">
+                <h2>About the Hackathon</h2>
+                <p>
+                    This hackathon is designed to bring tech enthusiasts, developers, and innovators together. It’s your chance to build innovative solutions, network with experts, and win exciting prizes. 
+
+                    Whether you're a seasoned developer or a coding newbie, everyone is welcome!
+                </p>
+                <button style="background-color: #15473E; font-size: 20px;">Register Now <img style="width: 24px; height: 24px;" src="arrow-right-02.png" alt=""></button>
+            </div>
+            <img style="width: 600px; height: 700px;" src="Frame 369.png" alt="">
+        </div>
+    </section>
 </body>
 </html>
